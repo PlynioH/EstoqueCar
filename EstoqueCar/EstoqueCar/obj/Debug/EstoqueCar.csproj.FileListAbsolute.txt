@@ -1,0 +1,14 @@
+C:\Users\kyz\Desktop\EstoqueCar\EstoqueCar\bin\Debug\EstoqueCar.exe.config
+C:\Users\kyz\Desktop\EstoqueCar\EstoqueCar\bin\Debug\EstoqueCar.exe
+C:\Users\kyz\Desktop\EstoqueCar\EstoqueCar\bin\Debug\EstoqueCar.pdb
+C:\Users\kyz\Desktop\EstoqueCar\EstoqueCar\obj\Debug\EstoqueCar.csprojAssemblyReference.cache
+C:\Users\kyz\Desktop\EstoqueCar\EstoqueCar\obj\Debug\EstoqueCar.cadastro_produto.resources
+C:\Users\kyz\Desktop\EstoqueCar\EstoqueCar\obj\Debug\EstoqueCar.entrada_saida.resources
+C:\Users\kyz\Desktop\EstoqueCar\EstoqueCar\obj\Debug\EstoqueCar.login.resources
+C:\Users\kyz\Desktop\EstoqueCar\EstoqueCar\obj\Debug\EstoqueCar.novo_usuario.resources
+C:\Users\kyz\Desktop\EstoqueCar\EstoqueCar\obj\Debug\EstoqueCar.Properties.Resources.resources
+C:\Users\kyz\Desktop\EstoqueCar\EstoqueCar\obj\Debug\EstoqueCar.recup_senha.resources
+C:\Users\kyz\Desktop\EstoqueCar\EstoqueCar\obj\Debug\EstoqueCar.transferencia.resources
+C:\Users\kyz\Desktop\EstoqueCar\EstoqueCar\obj\Debug\EstoqueCar.csproj.GenerateResource.cache
+C:\Users\kyz\Desktop\EstoqueCar\EstoqueCar\obj\Debug\EstoqueCar.exe
+C:\Users\kyz\Desktop\EstoqueCar\EstoqueCar\obj\Debug\EstoqueCar.pdb
