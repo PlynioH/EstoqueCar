@@ -84,12 +84,13 @@
             this.button1.TabIndex = 10;
             this.button1.Text = "Logar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.SystemColors.Window;
-            this.label6.Location = new System.Drawing.Point(197, 153);
+            this.label6.Location = new System.Drawing.Point(174, 111);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(69, 22);
             this.label6.TabIndex = 9;
@@ -99,11 +100,12 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(197, 62);
+            this.label5.Location = new System.Drawing.Point(174, 25);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(82, 22);
             this.label5.TabIndex = 8;
             this.label5.Text = "Usuário";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // textBox1
             // 
@@ -112,12 +114,14 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(333, 51);
             this.textBox1.TabIndex = 7;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(178, 136);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(333, 51);
             this.textBox2.TabIndex = 6;
             // 

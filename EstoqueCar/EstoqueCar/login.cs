@@ -6,6 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace EstoqueCar
@@ -29,10 +31,31 @@ namespace EstoqueCar
 
         private void label1_Click_1(object sender, EventArgs e)
         {
-
+            recup_senha recuperar = new recup_senha();
+            
         }
 
         private void login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            consulta consultar = new consulta();
+
+            if(textBox1.Text=="123" && textBox2.Text=="1234")
+            {
+                consultar.ShowDialog();
+            }
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }

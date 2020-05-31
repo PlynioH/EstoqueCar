@@ -34,20 +34,20 @@
             this.label4 = new System.Windows.Forms.Label();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox4
@@ -104,17 +104,45 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Recuperar Senha ou Usuário";
             // 
-            // label1
+            // groupBox3
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ControlText;
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(69, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(541, 69);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Pare recuperar seu nome de usuário ou senha, pedimos que\r\ninforme seu e-mail para" +
-    " então verificarmos \r\nse há o cadastro nos resgitros ";
+            this.groupBox3.Controls.Add(this.button3);
+            this.groupBox3.Controls.Add(this.textBox4);
+            this.groupBox3.Controls.Add(this.textBox2);
+            this.groupBox3.Location = new System.Drawing.Point(364, 119);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(314, 188);
+            this.groupBox3.TabIndex = 3;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Recupere Usuário";
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button3.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.button3.Location = new System.Drawing.Point(59, 128);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(187, 47);
+            this.button3.TabIndex = 7;
+            this.button3.Text = "Redefinir";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(17, 87);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(280, 30);
+            this.textBox4.TabIndex = 3;
+            this.textBox4.Text = "Confirme o e-mail";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(17, 39);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(280, 30);
+            this.textBox2.TabIndex = 1;
+            this.textBox2.Text = "Informe seu e-mail";
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // groupBox2
             // 
@@ -128,33 +156,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Recupere Senha";
             // 
-            // groupBox3
+            // button1
             // 
-            this.groupBox3.Controls.Add(this.button3);
-            this.groupBox3.Controls.Add(this.textBox4);
-            this.groupBox3.Controls.Add(this.textBox2);
-            this.groupBox3.Location = new System.Drawing.Point(364, 119);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(314, 188);
-            this.groupBox3.TabIndex = 3;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Recupere Usuário";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(17, 39);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(280, 30);
-            this.textBox2.TabIndex = 1;
-            this.textBox2.Text = "Informe seu e-mail";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(17, 87);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(280, 30);
-            this.textBox4.TabIndex = 3;
-            this.textBox4.Text = "Confirme o e-mail";
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.button1.Location = new System.Drawing.Point(62, 130);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(187, 47);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Redefinir";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // textBox1
             // 
@@ -172,27 +183,17 @@
             this.textBox3.TabIndex = 4;
             this.textBox3.Text = "Informe seu usuário";
             // 
-            // button1
+            // label1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button1.Location = new System.Drawing.Point(62, 130);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(187, 47);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Redefinir";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button3.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button3.Location = new System.Drawing.Point(59, 128);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(187, 47);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Redefinir";
-            this.button3.UseVisualStyleBackColor = false;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ControlText;
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(69, 37);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(541, 69);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Pare recuperar seu nome de usuário ou senha, pedimos que\r\ninforme seu e-mail para" +
+    " então verificarmos \r\nse há o cadastro nos resgitros ";
             // 
             // recup_senha
             // 
@@ -211,10 +212,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
