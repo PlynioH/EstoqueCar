@@ -90,7 +90,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.SystemColors.Window;
-            this.label6.Location = new System.Drawing.Point(174, 111);
+            this.label6.Location = new System.Drawing.Point(174, 136);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(69, 22);
             this.label6.TabIndex = 9;
@@ -100,7 +100,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(174, 25);
+            this.label5.Location = new System.Drawing.Point(174, 46);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(82, 22);
             this.label5.TabIndex = 8;
@@ -109,20 +109,20 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(178, 46);
+            this.textBox1.Location = new System.Drawing.Point(178, 71);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(333, 51);
+            this.textBox1.Size = new System.Drawing.Size(333, 26);
             this.textBox1.TabIndex = 7;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(178, 136);
+            this.textBox2.Location = new System.Drawing.Point(178, 161);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(333, 51);
+            this.textBox2.Size = new System.Drawing.Size(333, 25);
             this.textBox2.TabIndex = 6;
             // 
             // label2
